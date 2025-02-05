@@ -1,0 +1,554 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+
+} 
+
+.container3 {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+} 
+
+.container1{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Navbar Styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: white;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+header .logo h1 {
+    color: #004aad;
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 0px;
+    
+    
+}
+
+header nav ul li a {
+    text-decoration:none;
+    color: #002e5e;
+    margin: 15px;
+    
+}
+nav a:hover{
+    color: #fdc938;
+    text-decoration: none;
+}
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(9, 5, 54, 0.3),
+    rgba(5, 4, 46, 0.7)), url(back2.jpg) no-repeat center center/cover;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+
+.hero h2 {
+    font-size: 75px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.cta-buttons .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #004aad;
+}
+
+.btn-secondary {
+    background-color: #f39c12;
+}
+
+/* Features Section */
+.features {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.features h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+    justify-items: left;    
+}
+
+.feature-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-item h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 0;
+    text-align: center;
+    padding-top: 8em;
+}
+
+.courses h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    width: 30%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.course-item h3 {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.course-item .price {
+    color: #f39c12;
+    font-size: 22px;
+    font-weight: bold;
+}
+.course-item p{
+    color: gray;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 50px;
+}
+.container course-item{
+    justify-content: left;
+}
+.container1 h2{
+    color:darkblue;
+}
+.bintang{
+    color: orange;
+}
+.course-list{
+    text-align: left;
+}
+.feature-item img{
+    display: flex;
+    align-items: left;
+    width: 50px;
+}
+.course-item p{
+    text-align: left;
+}
+.feature-item{
+    text-align: left;
+}
+.replenish h3{
+    padding: 0px;
+    margin: 15px;
+
+}
+.coursess h2{
+    color: darkblue;
+}
+.cta-buttons .btn btn-primary{
+    background-color: #d6ad4e;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: small;
+}
+
+.cta-buttons .btn-primary:hover {
+    background-color: #ffffff;
+    color: #002e5e;
+}
+
+.cta-buttons .btn .btn-secondary{
+    background-color: #002e5e;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 5px;
+}
+
+.cta-buttons .btn-secondary:hover{
+    background-color: #ffffff;
+    color: #d6ad4e;
+}
+/* pendaftaran */
+.regristration{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background: linear-gradient(rgba(9, 5, 54, 0.3),
+    rgba(5, 4, 46, 0.7)), url(signup.jpg) no-repeat center center/cover;
+}
+.regis{
+    color: white;
+    padding-left: 200px;
+    padding-bottom: 150px;
+}
+.regis p{
+    text-align: left;
+    font-weight: 400px;
+}
+.regis h1{
+    font-size: 60px;
+    text-align: left;
+}
+main{
+    display: flex;
+    gap: 20px;
+    /* margin: 50px; */
+    margin-top: 50px;
+}
+.day{
+    background-color: rgba(252, 248, 248, 0.274);
+    border-radius: 10px;
+   padding: 20px 35px;
+}
+.hours{
+    background-color: rgba(252, 248, 248, 0.274);
+    border-radius: 10px;
+   padding: 20px 35px;
+}
+.minutes{
+    background-color: rgba(252, 248, 248, 0.274);
+    border-radius: 10px;
+   padding: 20px 35px;
+}
+.seconds{
+    background-color: rgba(252, 248, 248, 0.274);
+    border-radius: 10px;
+   padding: 20px 35px;
+}
+.pendaftaran{
+    background-color: #fff;
+    display: flex;
+    width: 350px;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 50px;
+    margin-left: 400px;
+    color: black;
+    grid-template-areas: "judul pendaftaran"
+                         "Waktu pendaftaran"   
+    ;
+}
+.regristration .pendaftaran input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(0, 0, 0,);
+    outline: none;
+}
+
+.gugugaga{
+    padding: 10px 20px;
+    background-color: #fdc938;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.gugugaga:hover{
+    background-color: white;
+    color: darkblue;
+}
+.waktu{
+    grid-area: waktu;
+}
+.judul{
+    grid-area: judul;
+}
+.pendaftaran{
+    grid-area: pendaftaran;
+}
+.regristration .pendaftaran input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+/* pendaftaran selesai */
+
+
+/* expert */
+.expert{
+    text-align: center;
+    padding-top: 200px;
+}
+.expert_box{
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+.expert_box .picture{
+    background: #fafaf1;
+    padding: 30px 35px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;;
+}
+.expert_box h6{
+font-size: 15px;
+margin-bottom: 5px;
+color: rgb(24, 24,49 );
+}
+
+.expert_box p{
+font-size: 15px;
+font-weight: 500;
+margin-bottom: 15px;
+}
+
+/* expert selesai */
+/* footer */
+footer{
+    padding: 66px;
+    background-color: #101c32;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+footer h3{
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li{
+     list-style: none;
+     color: #7b838a;
+     padding: 10px 0;
+     font-size: 15px;
+}
+
+.TopProduct{
+    padding-bottom: 40px;
+}
+
+.PowerTools{
+    padding-bottom: 40px;
+}
+
+.PowerTools2{
+    padding-bottom: 40px;
+}
+
+.Guides{
+    padding-bottom: 40px;
+}
+/* footer selesai */
+/* sikirikep */
+.subscribe input{
+width: 220px;
+padding: 15px 12px;
+background-color: #334F6c;
+border: none;
+outline: none;
+color: #fff;
+}
+
+.subscribe a{
+    padding: 15px 12px;
+    background-color: #fdc938;
+    color: white;
+    text-decoration: none;
+    font-size: 0.69rem;
+    transition: 0.3s ease;
+}
+
+.subscribe a:hover{
+    background-color: white;
+    color: darkblue;
+}
+
+.NewsLetter p{
+color:#7b838a;
+margin-bottom: 20px;
+}
+/* sikirikep selesai */
+.logo1 i{
+    padding:10px 13px ;
+    border: 1px solid rgb(21, 21, 100);
+}
+.logo1 i:hover{
+    background-color: darkblue;
+    color: white;
+}
+.copyrek .logo1 i{
+    color: white;
+    background-color: #5f7185;
+}
+
+.copyrek .logo1 i:hover{
+    background-color: #fdc938;
+    color: #002e5e;
+}
+
+.copyrek p{
+color: white;
+}
+footer .copyrek{
+    color: #fff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 15px;
+}
+
+#menu-btn{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+#menu-close{
+    display: none;
+}
+
+@media(max-width:800px){
+    #menu-btn{
+        display: initial;
+    }
+
+    nav ul{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 220px;
+        right: -220px;
+        background-color:black;
+        height: 100vh;
+        backdrop-filter: blur(4.5px);
+        border: 1px solid grey;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        transition: 0.3s ease;
+
+    }
+    #menu-close{
+        display: initial;
+        font-size: 1.6rem;
+        color: white;
+        padding: 30px 0 20px 20px;
+    }
+
+    nav ul.active{
+        right: 0;
+    }
+
+    
+    nav ul li{
+        padding: 20px 0 20px 40px;
+        margin-left: 0;
+    }
+
+    nav ul li a{
+        color: white;
+    }
+
+}
